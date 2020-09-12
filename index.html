@@ -405,15 +405,15 @@
                         <form name="5StarContactForm" method="post" data-netlify="true">
                             <h1>Let us know what's on your mind</h1>
                             <p>We'll respond as soon as possible</p>
-                            <input placeholder="Name" type="text" value="" data-lpignore="true" required>
-                            <input placeholder="Email address" type="email"
+                            <input name="name" placeholder="Name" type="text" value="" data-lpignore="true" required>
+                            <input name="email" placeholder="Email address" type="email"
                                 onblur="this.setAttribute('value', this.value);" value="" data-lpignore="true" required>
                             <span class="validation-text">Please enter a valid email address.</span>
-                            <input placeholder="Subject" type="text" value="" data-lpignore="true" required>
+                            <input name="subject" placeholder="Subject" type="text" value="" data-lpignore="true" required>
                             <div class="flex">
-                                <textarea placeholder="Message" rows="1" data-lpignore="true" required></textarea>
+                                <textarea name="comments" placeholder="Message" rows="1" data-lpignore="true" required></textarea>
                             </div>
-                            <button class="btn btn-primary">Send</button>
+                            <button name="send" type="submit" class="btn btn-primary submit">Send</button>
                         </form>
                     </div>
 
