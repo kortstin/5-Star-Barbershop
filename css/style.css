@@ -106,6 +106,7 @@ body {
     padding: 80px 0;
 }
 
+
 .service-img {
     width: 100px;
     margin-top: 20px;
@@ -484,7 +485,7 @@ hr {
 
   .contact-form form {
     font-family: 'roboto', sans-serif;
-    width: 460px;
+    max-width: 460px;
     margin: 20px auto 0;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
     padding: 0 0 40px;
@@ -506,7 +507,7 @@ hr {
     font: inherit;
     font-size: 0.8em;
     margin: 28px 25px 10px;
-    width: 400px;
+    width: 85%;
     display: block;
     border: none;
     padding: 20px 0 10px;
@@ -618,7 +619,7 @@ hr {
     cursor: pointer;
     border-radius: 3px;
     padding: 6px;
-    width: 400px;
+    width: 70%;
     color: white;
     margin: 30px 0 0 0;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
