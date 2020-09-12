@@ -477,7 +477,7 @@ body {
     color: #555;
   }
   
-  input::-webkit-input-placeholder,
+  .contact-form input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
     font: inherit;
     -webkit-transition: font-size 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -486,7 +486,7 @@ body {
     transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
   
-  input,
+  .contact-form input,
   textarea {
     font: inherit;
     font-size: 0.8em;
@@ -506,18 +506,18 @@ body {
     resize: none;
     overflow: hidden;
   }
-  input:focus::-webkit-input-placeholder,
+  .contact-form input:focus::-webkit-input-placeholder,
   textarea:focus::-webkit-input-placeholder {
     color:  #e1b056;
   }
-  input:focus, input:valid,
+  .contact-form input:focus, input:valid,
   textarea:focus,
   textarea:valid {
     box-shadow: none;
     outline: none;
     background-position: 0 0;
   }
-  input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder,
+  .contact-form input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder,
   textarea:focus::-webkit-input-placeholder,
   textarea:valid::-webkit-input-placeholder {
     font-size: 0.8em;
@@ -527,7 +527,7 @@ body {
     opacity: 1;
   }
   
-  input[type="email"] {
+  .contact-form input[type="email"] {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(4%, #03A9F4));
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #03A9F4 4%);
     background-position: -400px 0;
@@ -535,7 +535,7 @@ body {
     -webkit-transition: border-bottom 0.3s ease, background 0.3s ease;
     transition: border-bottom 0.3s ease, background 0.3s ease;
   }
-  input[type="email"] ~ span.validation-text {
+  .contact-form input[type="email"] ~ span.validation-text {
     position: absolute;
     visibility: hidden;
     font-family: 'roboto', sans-serif;
@@ -547,37 +547,37 @@ body {
     -webkit-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
   }
-  input[type="email"]:not([value=""])::-webkit-input-placeholder {
+  .contact-form input[type="email"]:not([value=""])::-webkit-input-placeholder {
     font-size: 0.8em;
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
     visibility: visible !important;
     opacity: 1;
   }
-  input[type="email"]:not([value=""]):focus::-webkit-input-placeholder {
+  .contact-form input[type="email"]:not([value=""]):focus::-webkit-input-placeholder {
     color:  #e1b056;
   }
-  input[type="email"]:not([value=""]):focus:not(:valid)::-webkit-input-placeholder {
+  .contact-form input[type="email"]:not([value=""]):focus:not(:valid)::-webkit-input-placeholder {
     color: #E91E63;
   }
-  input[type="email"]:focus {
+  .contact-form input[type="email"]:focus {
     background-position: 0 0;
   }
-  input[type="email"]:focus:not(:valid):not([value=""]) {
+  .contact-form input[type="email"]:focus:not(:valid):not([value=""]) {
     border-bottom: solid 1px #E91E63;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(4%, #E91E63));
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #E91E63 4%);
   }
-  input[type="email"]:not(:focus):not(:valid):not([value=""]) {
+  .contact-form input[type="email"]:not(:focus):not(:valid):not([value=""]) {
     border-bottom: solid 1px #E91E63;
     background-position: 0 0;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(4%, #E91E63));
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #E91E63 4%);
   }
-  input[type="email"]:not(:focus):not(:valid):not([value=""])::-webkit-input-placeholder {
+  .contact-form input[type="email"]:not(:focus):not(:valid):not([value=""])::-webkit-input-placeholder {
     color: #E91E63;
   }
-  input[type="email"]:not(:focus):not(:valid):not([value=""]) ~ span.validation-text {
+ .contact-form input[type="email"]:not(:focus):not(:valid):not([value=""]) ~ span.validation-text {
     visibility: visible;
     color: #E91E63;
   }
