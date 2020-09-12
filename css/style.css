@@ -102,6 +102,9 @@ body {
 
 /*Services Section*/
 
+#services {
+    padding: 80px 0;
+}
 
 .service-img {
     width: 100px;
@@ -197,6 +200,9 @@ hr {
 
 /* Meet Our Artists Section */
 
+#artists {
+    padding: 80px 0;
+}
 
 .team4 {
     font-family: "Montserrat", sans-serif;
@@ -240,6 +246,9 @@ hr {
 
 /* Testimonials Section */
 
+#testimonials {
+    margin: 100px 0;
+}
 
 .testimonials {
     border-left: 4px solid #e1b056;
@@ -453,7 +462,10 @@ hr {
 
   /* Contact Section */
 
-
+  #contact-us {
+      padding: 80px 0;
+    
+  }
 
 
 
