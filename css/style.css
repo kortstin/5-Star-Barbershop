@@ -6,6 +6,8 @@
 
 body {
     font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x:hidden;
 }
 
 /* Navigation Bar Section */
