@@ -147,6 +147,13 @@ body {
 
 }
 
+hr {
+  border: dotted #6aa4b1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 20px auto 0;
+}
+
  .btn-primary {
     box-shadow: none;
     padding: 8px 25px;
