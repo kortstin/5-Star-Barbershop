@@ -67,6 +67,11 @@ body {
     font-size: 30px;
 }
 
+.nav-sub-menu:hover {
+  background-color: #234069;
+  color: #ffffff;
+}
+
 /* Banner Section */
 
 #banner {
