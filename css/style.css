@@ -1,3 +1,12 @@
+:root {
+  --primary: #8c2d24;
+  --dark-accent: #6598eb;
+  --dark-shades: #2d74ed;
+  --light-accent: #f1a99c;
+  --light-shades: #f9f7f9;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +38,7 @@ body {
 }
 
 .navbar {
-    background-color: #e1b056;
+    background-color: var(--primary);
 }
 
 .navbar-brand img {
@@ -48,18 +57,18 @@ body {
 }
 
 .navbar-nav li .nav-link:hover {
-    color: #234069;
+    color: var(--dark-accent);
 }
 
 .btn-bd-download {
     font-weight: 600;
-    color: #234069;
-    border-color: #234069;
+    color: var(--light-shades);
+    border-color: var(--light-shades);
 }
 
 .btn-bd-download:hover {
-    background-color: #234069;
-    color: #ffffff;
+    background-color: var(--light-shades);
+    color: var(--primary);
 }
 
 .fa-bars {
@@ -68,14 +77,14 @@ body {
 }
 
 .nav-sub-menu:hover {
-  background-color: #234069;
+  background-color: var(--dark-accent);
   color: #ffffff;
 }
 
 /* Banner Section */
 
 #banner {
-    background-color: #e1b056;
+    background-color: var(--primary);
     color: #ffffff;
     padding-top: 5%;
 }
@@ -154,7 +163,7 @@ body {
 }
 
 hr {
-  border: dotted #6aa4b1 6px;
+  border: dotted var(--dark-shades) 6px;
   border-bottom: none;
   width: 4%;
   margin: 20px auto 0;
@@ -165,11 +174,11 @@ hr {
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-color: #e1b056;
+    background-color: var(--primary);
 }
 
 .btn-primary:hover {
-    background-color: #234069;
+    background-color: var(--dark-accent);
 }
 
 
@@ -246,7 +255,7 @@ hr {
   .team4 ul li a:hover {
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
-      color: #234069;
+      color: var(--dark-accent);
   }
 
 
@@ -257,7 +266,7 @@ hr {
 }
 
 .testimonials {
-    border-left: 4px solid #e1b056;
+    border-left: 4px solid var(--primary);
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -304,7 +313,7 @@ hr {
 /* FOOTER SECTION */
 
 #footer {
-  background-color: #e1b056;
+  background-color: var(--primary);
   color: #ffffff;
   padding: 10px 0;
 
@@ -325,7 +334,7 @@ hr {
 }
 
 #footer a:hover {
-  color: #234069;
+  color: var(--dark-accent);
 
 }
 
@@ -513,9 +522,9 @@ hr {
     display: block;
     border: none;
     padding: 20px 0 10px;
-    border-bottom: solid 1px  #e1b056;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(4%, #03A9F4));
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #03A9F4 4%);
+    border-bottom: solid 1px  var(--primary);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(4%,var(--light-accent)));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, var(--light-accent) 4%);
     background-position: -400px 0;
     background-size: 400px 100%;
     background-repeat: no-repeat;
@@ -526,7 +535,7 @@ hr {
   }
   .contact-form input:focus::-webkit-input-placeholder,
   textarea:focus::-webkit-input-placeholder {
-    color:  #e1b056;
+    color:  var(--primary);
   }
   .contact-form input:focus, input:valid,
   textarea:focus,
@@ -546,8 +555,8 @@ hr {
   }
   
   .contact-form input[type="email"] {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(4%, #03A9F4));
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #03A9F4 4%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(4%, var(--light-accent)));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, var(--light-accent) 4%);
     background-position: -400px 0;
     background-repeat: no-repeat;
     -webkit-transition: border-bottom 0.3s ease, background 0.3s ease;
@@ -573,7 +582,7 @@ hr {
     opacity: 1;
   }
   .contact-form input[type="email"]:not([value=""]):focus::-webkit-input-placeholder {
-    color:  #e1b056;
+    color:  var(--primary);
   }
   .contact-form input[type="email"]:not([value=""]):focus:not(:valid)::-webkit-input-placeholder {
     color: #E91E63;
@@ -617,7 +626,7 @@ hr {
     transition: transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), box-shadow 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
     transition: transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), box-shadow 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), -webkit-transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
     border: none;
-    background: #e1b056;
+    background: var(--primary);
     cursor: pointer;
     border-radius: 3px;
     padding: 6px;
@@ -637,7 +646,7 @@ hr {
     width: 42px;
     height: 42px;
     border-radius: 50px;
-    background:#e1b056;
+    background:var(--primary);
     display: inline-block;
     margin: 50px calc(50% - 21px);
     white-space: nowrap;
@@ -680,4 +689,8 @@ hr {
     margin-top: 20px;
     margin-bottom: 50px;
 
+    }
+
+    .fa-contact {
+      color: var(--dark-shades);
     }
