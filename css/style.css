@@ -300,13 +300,13 @@ hr {
     margin-bottom: 30px;
 }
 
-.social-icons img {
+.social-icons i {
     width: 60px;
     transition: 0.5s;
     padding: 10px;
 }
 
-.social-icons a:hover img {
+.social-icons a:hover i {
     transform: translateY(-10px);
 
 }
